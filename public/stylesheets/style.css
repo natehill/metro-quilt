@@ -1,0 +1,105 @@
+
+
+h1{
+  font-family: 'Crete Round', serif;
+}
+
+.black-block {
+  height: 44px;
+  width: 44px;
+  margin-right:8px;
+  margin-top:8px;
+  background-color: rgba(0,0,0, 1);
+  float:left;
+}
+
+.white-block {
+  font-family: 'Crete Round', serif;
+  padding: 6px;
+  position: absolute;
+  top: 112px;
+  margin: auto;
+  left: 223px;
+  right: 223px;
+  background-color: rgba(255,255,255, 1);
+  z-index: 1000;
+  min-height: 408px;
+  width: auto;
+}
+
+#logo img, .thumbnail{
+  margin:8px 8px 0 0;
+  float:left;
+}
+
+.thumb-back {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  text-align: center;
+  padding-top:12px;
+  margin: 0 8px 0 0;
+  height: 96px;
+  width: 148px;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.academic, .special, .hospital, .public, .archives, .museum, .historical, .others{top: 8px;}
+.academic{left: 119px;}
+.special{left: 275px;}
+.hospital{left: 432px;}
+.public{left: 587px;}
+.archives{left: 743px;}
+.museum{left: 899px;}
+.historical{left: 1055px;}
+.others{left: 1211px;}
+
+.thumbnail{
+  height: 96px;
+  width: 148px;
+  border: 2px solid #808080;
+  z-index: 100;
+  position: relative;
+}
+
+.orange{background-color: #F6BD60;}
+.lavender{background-color: #f0e6ff;}
+.magenta{background-color: #FF00FF;}
+.red{background-color: #e60000;}
+.purple{background-color: #8600b3;}
+.blue{background-color: #33cccc;}
+.darkblue{background-color: #0000ff;}
+.yellow{background-color: #ffff4d;}
+
+.control-panel {
+  display: block;
+  overflow:hidden;
+  margin: 0 0 0 16px;
+}
+
+.give-a-little {
+  margin-right: -8px;
+}
+
+.control-panel h1{
+  font-size: 2em;
+}
+
+#closeit {
+  z-index: 3;
+  display: block;
+  height:20px;
+  width: 20px;
+  margin: 8px;
+  color: red;
+}
+
+#org-content {
+  background-color: #fff;
+  padding:8px;
+  min-height: 408px;
+  overflow: hidden;
+}
+
+.memtype{margin-bottom:16px;
+}
