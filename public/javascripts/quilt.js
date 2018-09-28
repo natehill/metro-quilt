@@ -1,13 +1,5 @@
 
     $("#logo").append('<img src="images/metro-logo.png" />')
-    $(".academic").append('academic<br />libraries');
-    $(".special").append('special<br />libraries');
-    $(".hospital").append('hospital<br />libraries');
-    $(".public").append('public<br />libraries');
-    $(".archives").append('archives');
-    $(".museum").append('museum<br />libraries');
-    $(".historical").append('historical<br />societies');
-    $(".others").append('others');
     // define an array for the records
     accumulator = [];
     // define an associative array for the same
