@@ -39,8 +39,4 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-$( document ).ready(function() {
-    console.log( "ready!" );
-});
-
 module.exports = app;
